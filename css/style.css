@@ -1,0 +1,51 @@
+body{
+    background: #060d1f;
+}
+.contenedor__principal{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.borde{
+    --angle: 0deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 15rem;
+    border: double .3rem transparent;
+    border-radius: .8rem;
+    background-size: cover;
+    background-image: linear-gradient(#060d1f, #060d1f), linear-gradient(var(--angle), rgba(63,94,251,1), rgba(252,70,107,1));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: 100% 100%;
+
+    animation: 5s rotate linear infinite;
+}
+
+.titulo__mensaje{
+	background: linear-gradient(to left, rgba(63,94,251,1), rgba(252,70,107,1), rgba(63,94,251,1));
+    background-size: 200% auto;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    animation: move 4s linear infinite;
+
+}
+
+@keyframes rotate {
+to {
+    --angle: 360deg;
+}
+}
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes move { to { background-position: 200% center; } }
