@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1000px) {
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li{
+        text-align: center;
+    }
+}

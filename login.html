@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Componentes/header/header.css">
+    <link rel="stylesheet" href="css/Componentes/header/header-mobile.css">
+    <link rel="stylesheet" href="css/Componentes/footer/footer.css">
+    <link rel="stylesheet" href="css/Componentes/footer/contacto.css">
+    <link rel="stylesheet" href="css/Componentes/footer/contacto-mobile.css">
+    <link rel="stylesheet" href="css/Login/login.css">
+    <link rel="stylesheet" href="css/Globales/formulario.css">
+    <link rel="stylesheet" href="css/Globales/formulario-mobile.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenedor__img">
+            <img class="header__logo" src="img/Logo.png" alt="Logo del AluraGeek">
+        </div>
+        <div class="header__contenedor__input">
+            <input class="header__input" id="input__search" type="search" placeholder="¿Qué desea Buscar?">
+            <label class="label__search" for="input__search">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none" d="M19.129,18.164l-4.518-4.52c1.152-1.373,1.852-3.143,1.852-5.077c0-4.361-3.535-7.896-7.896-7.896
+                        c-4.361,0-7.896,3.535-7.896,7.896s3.535,7.896,7.896,7.896c1.934,0,3.705-0.698,5.078-1.853l4.52,4.519
+                        c0.266,0.268,0.699,0.268,0.965,0C19.396,18.863,19.396,18.431,19.129,18.164z M8.567,15.028c-3.568,0-6.461-2.893-6.461-6.461
+                        s2.893-6.461,6.461-6.461c3.568,0,6.46,2.893,6.46,6.461S12.135,15.028,8.567,15.028z"></path>
+                </svg>
+            </label>            
+        </div>
+        <div class="header__contenedor__button">
+            <button class="header__button" type="submit">Login</button>
+        </div>
+    </header>
+    <main>
+        <section class="login">
+            <form class="formulario login__form">
+                <h2 class="form__titulo">Iniciar Sesión</h2>
+                <div class="input">
+                    <label class="form__label" for="input__email">Email</label>
+                    <input class="form__input" type="email" id="input__email" required>
+                </div>
+                <div class="input">
+                    <label class="form__label" for="input__password">Contraseña</label>
+                    <input class="form__input" type="password" id="input__password" required>
+                </div>
+                <button class="form__button" type="submit">Ingresar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="contacto">
+            <div class="contenedor__logo">
+                <img src="img/Logo.png" alt="Logo AluraGeek">
+            </div>
+            <nav class="contenedor__menu">
+                <ul>
+                    <li>Quienes somos</li>
+                    <li>Politica de privacidad</li>
+                    <li>Programa de fidelidad</li>
+                    <li>Nuestras tiendas</li>
+                    <li>Quiero ser franquiciado</li>
+                    <li>Anúncie aqui</li>
+                </ul>
+            </nav>            
+            <form class="contenedor__formulario" action="">
+                <legend class="form__titulo">Hable con nosotros</legend>
+                <div class="input">
+                    <label class="form__label" for="input__nombre">Nombre</label>
+                    <input class="form__input" type="email" id="input__nombre" required>
+                </div>
+                <div class="input">
+                    <label class="form__label" for="input__mensaje">Mensaje</label>
+                    <textarea class="form__mensaje" id="input__mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <button class="form__button">Enviar Mensaje</button>
+            </form>
+        </section>
+        <section class="info">
+            <h4>Desarrollado por Juan Pablo Mota 2022</h4>
+        </section>
+    </footer>
+</body>
+</html>

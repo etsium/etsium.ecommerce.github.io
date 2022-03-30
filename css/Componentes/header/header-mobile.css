@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1000px) {
+    .header{
+        flex-direction: column;
+    }
+
+    .header__input{
+        width: 15rem;
+        margin-left: 2rem;
+    }    
+
+    .header__contenedor__button{
+        display: none;
+    }
+  }

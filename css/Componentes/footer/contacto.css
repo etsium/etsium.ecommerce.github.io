@@ -1,0 +1,43 @@
+li{
+    list-style: none;
+    text-align: start;
+    padding-bottom: 2rem;
+}
+ul{
+    padding: 0;
+}
+
+.contacto{
+    display: flex;
+    background: var(--terciario);
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.contacto .input{
+    padding-bottom: 1rem;
+}
+
+.contenedor__logo{
+    flex-grow: 2;
+}
+
+.contenedor__menu{
+    flex-grow: 1;
+}
+
+.contenedor__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 3;
+}
+
+.footer .form__titulo{
+ padding: 1rem 0;
+}
+
+.footer .form__mensaje, .footer .form__input{
+    width: 40rem;
+}
+

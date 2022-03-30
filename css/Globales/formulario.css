@@ -1,0 +1,78 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.form__titulo{
+    padding-bottom: 3rem;
+}
+
+.input{
+    display: flex;
+    align-items: flex-start;
+}
+
+.form__input{
+    width: 25rem;
+    height: 3rem;
+    padding-top: .5rem;
+    border-right: none;
+    background: var(--primario);
+    color: var(--blanco);
+    border-radius: .3rem;
+
+    transition: all ease-in-out 500ms ;
+}
+
+.form__mensaje{
+    width: 25rem;
+    height: 4rem;
+    padding-top: 1.3rem;
+    border-right: none;
+    background: var(--primario);
+    color: var(--blanco);
+    border-radius: .3rem;
+    border: none;
+    border-bottom: .15rem solid #767676;
+
+
+    transition: all ease-in-out 500ms ;
+}
+
+.form__input:focus, .form__mensaje:focus{
+    border-bottom: .15rem solid var(--azul);
+    outline: none;
+}
+
+.input:focus-within .form__label{
+    color: var(--azul);
+}
+
+.form__label{
+    position: absolute;
+    color: var(--gris);
+    font-size: .8rem;
+    padding: 0.3rem;
+
+    transition: all ease-in-out 500ms ;
+}
+
+.form__button{
+    padding: 0;
+    border-radius: .3rem;
+    color: var(--blanco);
+    width: 25rem;
+    height: 3.3rem;
+    background: var(--azul);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background ease-in-out 500ms;
+}
+
+.form__button:hover{
+    background: var(--azulclarito);
+}
