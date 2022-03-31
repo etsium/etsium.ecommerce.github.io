@@ -4,14 +4,238 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Componentes/header/header.css">
+    <link rel="stylesheet" href="css/Componentes/header/header-mobile.css">
+    <link rel="stylesheet" href="css/Componentes/footer/footer.css">
+    <link rel="stylesheet" href="css/Componentes/footer/contacto.css">
+    <link rel="stylesheet" href="css/Componentes/footer/contacto-mobile.css">
+    <link rel="stylesheet" href="css/Globales/formulario.css">
+    <link rel="stylesheet" href="css/Globales/formulario-mobile.css">
+    <link rel="stylesheet" href="css/home/home.css">
+    <link rel="stylesheet" href="css/home/productos.css">
+    <link rel="stylesheet" href="css/home/productos-tablet.css">
+    <link rel="stylesheet" href="css/home/productos-mobile.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <title>Home</title>
 </head>
 <body>
-    <div class="contenedor__principal">
-        <div class="borde">
-            <H1 class="titulo__mensaje">E-ecomerse en Desarrollo</H1>
+    <header class="header">
+        <div class="header__contenedor__img">
+            <a href="index.html"><img class="header__logo" src="img/Logo.png" alt="Logo del AluraGeek"></a>
         </div>
-    </div>
+        <div class="header__contenedor__input">
+            <input class="header__input" id="input__search" type="search" placeholder="¿Qué desea Buscar?">
+            <label class="label__search" for="input__search">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none" d="M19.129,18.164l-4.518-4.52c1.152-1.373,1.852-3.143,1.852-5.077c0-4.361-3.535-7.896-7.896-7.896
+                        c-4.361,0-7.896,3.535-7.896,7.896s3.535,7.896,7.896,7.896c1.934,0,3.705-0.698,5.078-1.853l4.52,4.519
+                        c0.266,0.268,0.699,0.268,0.965,0C19.396,18.863,19.396,18.431,19.129,18.164z M8.567,15.028c-3.568,0-6.461-2.893-6.461-6.461
+                        s2.893-6.461,6.461-6.461c3.568,0,6.46,2.893,6.46,6.461S12.135,15.028,8.567,15.028z"></path>
+                </svg>
+            </label>            
+        </div>
+        <div class="header__contenedor__button">
+            <a href="login.html"><button class="header__button">Login</button></a>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__contenedor">
+                <h1 class="banner__titulo">Febrero Promocional</h1>
+                <h3 class="banner__texto">Productos selecionados con 33% de descuento</h3>
+                <button class="form__button banner__button">Ver consola</button>
+            </div>            
+        </section>   
+        <section class="productos">
+            <div class="productos__seccion">   
+                <h2 class="productos__seccion__nombre">Star Wars</h2>
+                <a class="productos__seccion__enlace" href="#">Ver todo</a>          
+                <div class="producto producto1">
+                    <div class="producto__imagen">
+                        <img src="img/seccion1-producto1.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Producto XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto2">
+                    <div class="producto__imagen">
+                        <img src="img/seccion1-producto2.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Producto XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto3">
+                    <div class="producto__imagen">
+                        <img src="img/seccion1-producto3.png" alt="Imagen del producto">
+                    </div>
+                    <h class="producto__nombre"4>Producto XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto4">
+                    <div class="producto__imagen">
+                        <img src="img/seccion1-producto4.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Producto XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto5">
+                    <div class="producto__imagen">
+                        <img src="img/seccion1-producto5.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Producto XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto6">
+                    <div class="producto__imagen">
+                        <img src="img/seccion1-producto6.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Producto XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+            </div>                      
+            <div class="productos__seccion">   
+                <h2 class="productos__seccion__nombre">Consolas</h2>
+                <a class="productos__seccion__enlace" href="#">Ver todo</a>          
+                <div class="producto producto1">
+                    <div class="producto__imagen">
+                        <img src="img/seccion2-producto1.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Control XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto2">
+                    <div class="producto__imagen">
+                        <img src="img/seccion2-producto2.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Control y consola XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto3">
+                    <div class="producto__imagen">
+                        <img src="img/seccion2-producto3.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Consola XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto4">
+                    <div class="producto__imagen">
+                        <img src="img/seccion2-producto4.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Control XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto5">
+                    <div class="producto__imagen">
+                        <img src="img/seccion2-producto5.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Consola XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto6">
+                    <div class="producto__imagen">
+                        <img src="img/seccion2-producto6.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Game Boy Color</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+            </div>                      
+            <div class="productos__seccion">   
+                <h2 class="productos__seccion__nombre">Diversos</h2>
+                <a class="productos__seccion__enlace" href="#">Ver todo</a>          
+                <div class="producto producto1">
+                    <div class="producto__imagen">
+                        <img src="img/seccion3-producto1.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Camisa Atari</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto2">
+                    <div class="producto__imagen">
+                        <img src="img/seccion3-producto2.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Camisa SNES</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto3">
+                    <div class="producto__imagen">
+                        <img src="img/seccion3-producto3.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Control XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto4">
+                    <div class="producto__imagen">
+                        <img src="img/seccion3-producto4.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Control y consola XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto5">
+                    <div class="producto__imagen">
+                        <img src="img/seccion3-producto5.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Control y consola XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+                <div class="producto producto6">
+                    <div class="producto__imagen">
+                        <img src="img/seccion3-producto6.png" alt="Imagen del producto">
+                    </div>
+                    <h4 class="producto__nombre">Producto XYZ</h4>
+                    <p class="producto__precio">$ 60.00</p>
+                    <a class="producto__enlace" href="#">Ver producto</a>
+                </div>
+            </div>                      
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="contacto">
+            <div class="contenedor__logo">
+                <img src="img/Logo.png" alt="Logo AluraGeek">
+            </div>
+            <nav class="contenedor__menu">
+                <ul>
+                    <li><a href="#">Quienes somos</a></li>
+                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Programa de fidelidad</a></li>
+                    <li><a href="#">Nuestras tiendas</a></li>
+                    <li><a href="#">Quiero ser franquiciado</a></li>
+                    <li><a href="#">Anúncie aqui</a></li>
+                </ul>
+            </nav>            
+            <form class="contenedor__formulario" action="">
+                <legend class="form__titulo">Hable con nosotros</legend>
+                <div class="input">
+                    <label class="form__label" for="input__nombre">Nombre</label>
+                    <input class="form__input" type="email" id="input__nombre" required>
+                </div>
+                <div class="input">
+                    <label class="form__label" for="input__mensaje">Mensaje</label>
+                    <textarea class="form__mensaje" id="input__mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <button class="form__button">Enviar Mensaje</button>
+            </form>
+        </section>
+        <section class="info">
+            <h4>Desarrollado por Juan Pablo Mota 2022</h4>
+        </section>
+    </footer>
 </body>
 </html>

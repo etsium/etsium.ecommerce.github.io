@@ -1,0 +1,36 @@
+h1, h2{
+    margin: 0;
+}
+
+.banner{
+    background-image: url("../../img/banner-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner__contenedor{
+    margin-left: 10rem;
+}
+
+.banner__titulo{
+    font-size: 5rem;
+}
+
+.banner__texto{
+    font-size: 2rem;
+}
+
+.banner__titulo, .banner__texto{
+    color: var(--blanco);
+    font-weight: bold;
+}
+
+.banner__button{
+    width: 10rem;
+    margin-bottom: 3rem;
+}

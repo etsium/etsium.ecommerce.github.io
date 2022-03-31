@@ -1,0 +1,37 @@
+@media only screen 
+  and (max-device-width: 1000px){
+
+    .productos__seccion{
+        display: grid;
+        grid-template:
+        'seccion enlace'
+        'producto1 producto2'
+        'producto3 producto4';
+        justify-content: center;
+        justify-items: stretch;
+        gap: 1rem;
+    }
+    .producto5{
+        display: none;
+    }
+    .producto6{
+        display: none;
+    }
+
+    .producto__imagen{
+        width: 10rem;
+    }
+
+    .banner__contenedor{
+        margin: 1rem;
+    }
+
+    .banner__titulo{
+        font-size: 2rem;
+    }
+
+    .banner__texto{
+        font-size: 1.2rem;
+    }
+
+  }

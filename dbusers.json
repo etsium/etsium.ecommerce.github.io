@@ -1,0 +1,10 @@
+{
+    "producto": [
+      {
+        "email": "Juan Pablo Mota",
+        "password": "asdfgh",
+        "id": 1,
+        "rol": "admin"
+      }
+    ]
+  }

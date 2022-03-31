@@ -7,3 +7,7 @@
 .info{
     padding: 2rem 1rem;
 }
+
+.footer a{
+    color: var(--blanco);
+}

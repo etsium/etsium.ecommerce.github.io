@@ -1,0 +1,77 @@
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--azul);
+
+    transition: color ease-in-out 500ms;
+}
+
+a:hover{
+    color: var(--azulclarito);
+}
+
+.productos{
+    background: var(--primario);
+}
+
+.producto__nombre,.producto__precio, .productos__seccion__nombre{
+    margin: .4rem 0rem;
+    color: var(--blanco);
+}
+
+.producto__nombre{
+    font-weight: normal;
+}
+
+.producto__precio{
+    font-weight: bold;
+}
+
+.productos__seccion{
+    padding: 3rem;
+}
+
+.productos__seccion{
+    display: grid;
+    grid-template:
+    'seccion . . . . enlace'
+    'producto1 producto2 producto3 producto4 producto5 producto6';
+    justify-content: center;
+    justify-items: stretch;
+    gap: 1rem;
+}
+
+.producto__imagen{
+    width: 15rem;
+}
+
+.producto__imagen img{
+    width: 100%;
+    border-radius: .4rem;
+}
+
+.producto1{
+    grid-area: producto1;  
+}
+.producto2{
+    grid-area: producto2;
+}
+.producto3{
+    grid-area: producto3;
+}
+.producto4{
+    grid-area: producto4;
+}
+.producto5{
+    grid-area: producto5;
+}
+.producto6{
+    grid-area: producto6;
+}
+.productos__seccion__nombre{
+    grid-area: seccion;
+}
+.productos__seccion__enlace{
+    grid-area: enlace;
+    justify-self: end;
+}

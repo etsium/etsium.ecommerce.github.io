@@ -1,0 +1,26 @@
+@media only screen 
+  and (min-device-width: 1000px) 
+  and (max-device-width: 1600px) {
+
+    .productos__seccion{
+        display: grid;
+        grid-template:
+        'seccion . . enlace'
+        'producto1 producto2 producto3 producto4';
+        justify-content: center;
+        justify-items: stretch;
+        gap: 1rem;
+    }
+
+    .producto5{
+        display: none;
+    }
+    .producto6{
+        display: none;
+    }
+
+    .banner__contenedor{
+        margin: 4rem;
+    }
+
+  }
