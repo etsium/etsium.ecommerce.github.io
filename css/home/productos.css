@@ -1,17 +1,26 @@
-a{
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--azul);
-
-    transition: color ease-in-out 500ms;
-}
-
-a:hover{
-    color: var(--azulclarito);
-}
-
 .productos{
     background: var(--primario);
+}
+
+.producto{
+    transform: scale(1);
+    transition: all ease-in-out 1s;
+}
+
+.exhibidor__producto__imagen{
+    border-radius: .3rem;
+}
+
+.producto:hover > .producto__imagen{
+    transition: all ease-in-out 1s;
+    border-radius: .5rem; 
+    box-shadow: 0rem 0rem 1rem .2rem var(--azulclarito);
+}
+
+.producto:hover{
+    transform: scale(1.1);
+    margin: 0rem 1rem;
+    transition: all ease-in-out 1s;
 }
 
 .producto__nombre,.producto__precio, .productos__seccion__nombre{

@@ -1,0 +1,26 @@
+@media only screen 
+  and (max-device-width: 1024px){
+    .exhibidor__producto{
+        flex-direction: column;
+    }
+    
+    .exhibidor__producto__imagen{
+        max-width: 100%;
+    }  
+    
+    .exhibidor__producto, .productos__seccion{
+        padding: 2rem 0rem;
+    }
+    
+    .exhibidor__producto__titulo{
+        font-size: 3rem;
+    }
+    
+    .exhibidor__producto__descripcion{
+        font-size: 1.2rem;
+    }
+    
+    .productos__seccion__nombre{
+        font-size: 1rem;
+    }
+}

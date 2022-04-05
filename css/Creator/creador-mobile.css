@@ -1,0 +1,12 @@
+@media only screen 
+  and (max-device-width: 1024px){
+    .creador__form__titulo{
+        font-size: 1.5rem;
+    }
+    .form__label__image{
+        max-width: 10rem;
+    }
+    .creador .form__input, .creador__mensaje, .creador__button {
+        max-width: 20rem;
+    }
+}

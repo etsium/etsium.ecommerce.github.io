@@ -1,0 +1,42 @@
+h1, p{
+    margin: 0;
+    color: var(--blanco);
+}
+.exhibidor{
+    background: var(--secundario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exhibidor__producto{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 80%;
+    padding: 3rem;
+}
+
+.exhibidor__producto__imagen{
+    background-image: url("../../img/producto1.png");
+    width: 120rem;
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.exhibidor__producto__titulo{
+    font-size: 5rem;
+    margin: 0;
+}
+
+.exhibidor__producto__precio{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+.exhibidor__producto__descripcion{
+    font-size: 1.5rem;
+}

@@ -1,3 +1,16 @@
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--azul);
+
+    transition: color ease-in-out 500ms;
+}
+
+a:hover{
+    color: var(--azulclarito);
+}
+
+
 .formulario{
     display: flex;
     flex-direction: column;

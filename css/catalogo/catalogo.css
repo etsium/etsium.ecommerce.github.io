@@ -1,0 +1,66 @@
+.productos__seccion{
+    display: grid;
+    grid-template:
+    'seccion . . . . enlace'
+    'producto1 producto2 producto3 producto4 producto5 producto6'
+    'producto7 producto8 producto9 producto10 producto11 producto12'
+    'producto13 producto14 producto15 producto16 producto17 producto18';
+    justify-content: center;
+    justify-items: stretch;
+    gap: 1rem;
+}
+
+.producto1{
+    grid-area: producto1;  
+}
+.producto2{
+    grid-area: producto2;
+}
+.producto3{
+    grid-area: producto3;
+}
+.producto4{
+    grid-area: producto4;
+}
+.producto5{
+    grid-area: producto5;
+}
+.producto6{
+    grid-area: producto6;
+}
+.producto7{
+    grid-area: producto7;  
+}
+.producto8{
+    grid-area: producto8;
+}
+.producto9{
+    grid-area: producto9;
+}
+.producto10{
+    grid-area: producto10;
+}
+.producto11{
+    grid-area: producto11;
+}
+.producto12{
+    grid-area: producto12;
+}
+.producto13{
+    grid-area: producto13;
+}
+.producto14{
+    grid-area: producto14;  
+}
+.producto15{
+    grid-area: producto15;
+}
+.producto16{
+    grid-area: producto16;
+}
+.producto17{
+    grid-area: producto17;
+}
+.producto18{
+    grid-area: producto18;
+}
