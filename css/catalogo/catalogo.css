@@ -1,12 +1,12 @@
 .productos__seccion{
     display: grid;
     grid-template:
-    'seccion . . . . enlace'
+    'seccion seccion seccion enlace enlace enlace'
     'producto1 producto2 producto3 producto4 producto5 producto6'
     'producto7 producto8 producto9 producto10 producto11 producto12'
     'producto13 producto14 producto15 producto16 producto17 producto18';
     justify-content: center;
-    justify-items: stretch;
+    justify-items: center;
     gap: 1rem;
 }
 

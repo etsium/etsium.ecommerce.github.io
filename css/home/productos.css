@@ -11,7 +11,7 @@
     border-radius: .3rem;
 }
 
-.producto:hover > .producto__imagen{
+.producto__enlace:hover > .producto__imagen{
     transition: all ease-in-out 1s;
     border-radius: .5rem; 
     box-shadow: 0rem 0rem 1rem .2rem var(--azulclarito);
@@ -19,7 +19,7 @@
 
 .producto:hover{
     transform: scale(1.1);
-    margin: 0rem 1rem;
+    padding: 1rem;
     transition: all ease-in-out 1s;
 }
 
@@ -47,6 +47,7 @@
     'producto1 producto2 producto3 producto4 producto5 producto6';
     justify-content: center;
     justify-items: stretch;
+    align-items: center;
     gap: 1rem;
 }
 

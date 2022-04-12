@@ -1,112 +1,155 @@
 {
-    "producto": [
-      { "imagen": "",
-        "nombre": "Producto XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 1
-      },
-      { "imagen": "",
-        "nombre": "Producto XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 2
-      },
-      { "imagen": "",
-        "nombre": "Producto XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 3
-      },
-      { "imagen": "",
-        "nombre": "Producto XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 4
-      },
-      { "imagen": "",
-        "nombre": "Producto XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 5
-      },
-      { "imagen": "",
-        "nombre": "Producto XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 6
-      },
-      { "imagen": "",
-        "nombre": "Control XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 7
-      },
-      { "imagen": "",
-        "nombre": "Control y consola XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 8
-      },
-      { "imagen": "",
-        "nombre": "Consola XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 9
-      },
-      { "imagen": "",
-        "nombre": "Control XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 10
-      },
-      { "imagen": "",
-        "nombre": "Consola XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 11
-      },
-      { "imagen": "",
-        "nombre": "Game Boy Color",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 12
-      },
-      { "imagen": "",
-        "nombre": "Camisa Atari",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 13
-      },
-      { "imagen": "",
-        "nombre": "Camisa SNES",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 14
-      },
-      { "imagen": "",
-        "nombre": "Control XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 15
-      },
-      { "imagen": "",
-        "nombre": "Control y consola XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 16
-      },
-      { "imagen": "",
-        "nombre": "Control y consola XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 17
-      },
-      { "imagen": "",
-        "nombre": "Producto XYZ",
-        "precio": "60,00",
-        "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
-        "id": 18
-      }
-    ]
-  }
+  "producto": [
+    {
+      "imagen": "",
+      "nombre": "Producto XYZ",
+      "precio": "60,00",
+      "categoria": "Star Wars",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 1
+    },
+    {
+      "imagen": "",
+      "nombre": "Producto XYZ",
+      "precio": "60,00",
+      "categoria": "Star Wars",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 2
+    },
+    {
+      "imagen": "",
+      "nombre": "Producto XYZ",
+      "precio": "60,00",
+      "categoria": "Star Wars",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 3
+    },
+    {
+      "imagen": "",
+      "nombre": "Producto XYZ",
+      "precio": "60,00",
+      "categoria": "Star Wars",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 4
+    },
+    {
+      "imagen": "",
+      "nombre": "Producto XYZ",
+      "precio": "60,00",
+      "categoria": "Star Wars",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 5
+    },
+    {
+      "imagen": "",
+      "nombre": "Producto XYZ",
+      "precio": "60,00",
+      "categoria": "Star Wars",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 6
+    },
+    {
+      "imagen": "",
+      "nombre": "Control XYZ",
+      "precio": "60,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 7
+    },
+    {
+      "imagen": "",
+      "nombre": "Control y consola XYZ",
+      "precio": "60,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 8
+    },
+    {
+      "imagen": "",
+      "nombre": "Consola XYZ",
+      "precio": "60,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 9
+    },
+    {
+      "imagen": "",
+      "nombre": "Control XYZ",
+      "precio": "60,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 10
+    },
+    {
+      "imagen": "",
+      "nombre": "Consola XYZ",
+      "precio": "60,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 11
+    },
+    {
+      "imagen": "",
+      "nombre": "Game Boy Color",
+      "precio": "60,00",
+      "categoria": "Consolas",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 12
+    },
+    {
+      "imagen": "",
+      "nombre": "Camisa Atari",
+      "precio": "60,00",
+      "categoria": "Diversos",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 13
+    },
+    {
+      "imagen": "",
+      "nombre": "Camisa SNES",
+      "precio": "60,00",
+      "categoria": "Diversos",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 14
+    },
+    {
+      "imagen": "",
+      "nombre": "Control XYZ",
+      "precio": "60,00",
+      "categoria": "Diversos",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 15
+    },
+    {
+      "imagen": "",
+      "nombre": "Control y consola XYZ",
+      "precio": "60,00",
+      "categoria": "Diversos",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 16
+    },
+    {
+      "imagen": "",
+      "nombre": "Control y consola XYZ",
+      "precio": "60,00",
+      "categoria": "Diversos",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 17
+    },
+    {
+      "imagen": "",
+      "nombre": "Producto XYZ",
+      "precio": "60,00",
+      "categoria": "Diversos",
+      "descripcion": "Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit facere impedit, dolores fugit id tempore mollitia rem libero, maxime quia ut autem fugiat debitis nesciunt sint explicabo vitae totam iste! adipisicing elit. Vitae molestiae eos commodi, magni error accusamus asperiores ut vel id non debitis rerum ullam. Reprehenderit ipsum dolore, optio itaque minus a.",
+      "id": 18
+    },
+    {
+      "nombre": "Test",
+      "precio": "$ 70,00",
+      "categoria": "Diversos",
+      "descripcion": "dsadasfasdsazxczdxfvdfasdasdx",
+      "id": 19
+    }
+  ]
+}

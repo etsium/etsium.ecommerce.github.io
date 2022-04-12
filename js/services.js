@@ -1,3 +1,16 @@
+const listaProductos = () => fetch("http://localhost:3000/producto").then( (respuesta) => respuesta.json());
+
+const crearProducto = (nombre, precio, descripcion) => {
+    return fetch("http://localhost:3000/producto", {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({nombre,precio, descripcion}),
+    });
+}
+
+/*
 const img = document.getElementById("producto__imagen");
 const imagePreview = document.getElementById("preview");
 const svg = document.querySelector(".form__svg__image");
@@ -39,4 +52,9 @@ function previewImage(imgD) {
             errorMessage.innerText = "File type should be an image"
         }
     }   
+}*/
+
+export const productServices = {
+    crearProducto,
+    listaProductos,
 }

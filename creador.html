@@ -40,7 +40,7 @@
         </div>
     </header>
     <main class="creador">
-        <form class="contenedor__formulario creador__formulario" action="">
+        <form class="contenedor__formulario creador__formulario" data-form>
             <legend class="creador__form__titulo">Agregar nuevo producto</legend>
             <div class="form__drag__image pointer">
                 <img class="preview__disabled" src="#" alt="Imagen Preview Cargada" id="preview">
@@ -50,15 +50,15 @@
             </div>
             <div class="input">
                 <label class="form__label" for="producto__nombre">Nombre del producto</label>
-                <input placeholder="Producto XYZ" class="form__input" type="email" id="producto__nombre" required>
+                <input placeholder="Producto XYZ" class="form__input" type="text" id="producto__nombre" data-nombre required>
             </div>
             <div class="input">
                 <label class="form__label" for="producto__precio">Precio del producto</label>
-                <input placeholder="$ 60,00" class="form__input" type="email" id="producto__precio" required>
+                <input placeholder="$ 60,00" class="form__input" type="text" id="producto__precio" data-precio required>
             </div>
             <div class="input">
                 <label class="form__label" for="input__mensaje">Descripcion del producto</label>
-                <textarea class="form__mensaje creador__mensaje" id="input__mensaje" cols="30" rows="10"></textarea>
+                <textarea class="form__mensaje creador__mensaje" id="input__mensaje" cols="30" rows="10" data-descripcion></textarea>
             </div>
             <button class="form__button creador__button">Agregar producto</button>
         </form>
@@ -78,7 +78,7 @@
                     <li><a href="#">Anúncie aqui</a></li>
                 </ul>
             </nav>            
-            <form class="contenedor__formulario" action="">
+            <form class="contenedor__formulario">
                 <legend class="form__titulo">Hable con nosotros</legend>
                 <div class="input">
                     <label class="form__label" for="input__nombre">Nombre</label>
@@ -88,7 +88,7 @@
                     <label class="form__label" for="input__mensaje">Mensaje</label>
                     <textarea class="form__mensaje" id="input__mensaje" cols="30" rows="10"></textarea>
                 </div>
-                <button class="form__button">Enviar Mensaje</button>
+                <button type="submit" class="form__button">Enviar Mensaje</button>
             </form>
         </section>
         <section class="info">
@@ -96,6 +96,6 @@
         </section>
     </footer>
 
-    <script src="js/services.js"></script>
+    <script type="module" src="controllers/registrar.controller.js"></script>
 </body>
 </html>
