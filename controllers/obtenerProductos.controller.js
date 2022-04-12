@@ -1,7 +1,7 @@
 import { productServices } from "../js/services.js";
 const srcGaleriaImagenes = 'https://raw.githubusercontent.com/etsium/Ecommerse..github.io/main/img/';
 
-const cargarProductos = productServices.listaProductos().then( (res)=> {
+const cargarProductos = productServices.listaProductos().then((res)=> {
     const data = res.producto;
     const url = document.URL.split("/").pop().split("?").shift();
 
