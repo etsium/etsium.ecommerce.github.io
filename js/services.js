@@ -1,4 +1,4 @@
-const listaProductos = () => fetch("http://localhost:3000/producto").then( (respuesta) => respuesta.json());
+const listaProductos = () => fetch("https://etsium.github.io/Ecommerse..github.io/dbproductos.json").then( (respuesta) => respuesta.json());
 
 const crearProducto = (nombre, precio, descripcion) => {
     return fetch("http://localhost:3000/producto", {
