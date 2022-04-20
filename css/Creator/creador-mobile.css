@@ -4,9 +4,17 @@
         font-size: 1.5rem;
     }
     .form__label__image{
-        max-width: 10rem;
+        max-width: 15rem;
     }
     .creador .form__input, .creador__mensaje, .creador__button {
-        max-width: 20rem;
+        max-width: 15rem;
+    }
+
+    .drag__image__content{
+        max-width: 15rem;
+    }
+
+    .preview{
+        max-width: 15rem;
     }
 }

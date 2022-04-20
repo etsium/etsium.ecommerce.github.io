@@ -1,12 +1,18 @@
 h1, p{
     margin: 0;
-    color: var(--blanco);
+    color: var(--letra);
+
+    transition-property: color;
+    transition: ease-in-out .5s;
 }
 .exhibidor{
     background: var(--secundario);
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    transition-property: background;
+    transition: ease-in-out .5s;
 }
 
 .exhibidor__producto{

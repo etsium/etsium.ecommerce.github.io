@@ -8,6 +8,8 @@ body{
     gap: 2rem;
     background: var(--primario);
     
+    transition-property: background;
+    transition: ease-in-out .5s;
 }
 
 .header__contenedor__img{
@@ -31,8 +33,11 @@ body{
     border: none;
     width: 30rem;
     border-radius: 1rem;
-    color: var(--blanco);
+    color: var(--letra);
     background: var(--secundario);
+    transition-property: background, color;
+    transition: ease-in-out .5s;
+
 }
 
 .header__input:focus{
@@ -43,7 +48,7 @@ body{
     width: 1.2em;
     height: 1.2em;
     position: relative;
-    left: -2rem;
+    left: -3rem;
 }
 
 .svg-icon {
@@ -73,8 +78,43 @@ body{
 
 .header__button:hover{
     background-color: var(--azul);
-    color: var(--blanco);
+    color: var(--letrasecundaria);
     cursor: pointer;
     transition: all ease 2s;
 
+}
+
+.svg-icon-tema{
+    transform: scale(1.5) rotate(220deg);
+}
+
+.no-visible{
+    display: none;
+}
+
+.header__estilo{
+    cursor: pointer;
+}
+
+@keyframes changeOut { 
+    0%{
+        transform: rotate(0deg); 
+        opacity: 1;
+        
+    }
+    100% { 
+        transform: rotate(360deg);
+        opacity: 0; 
+    } 
+}
+
+@keyframes changeIn{
+    0%{
+        transform: rotate(220deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 1;
+    }
 }

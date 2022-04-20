@@ -1,8 +1,8 @@
 import { productServices } from "../js/services.js";
 const srcGaleriaImagenes = 'https://raw.githubusercontent.com/etsium/Ecommerse.github.io/main/img/';
 
-const cargarProductos = productServices.listaProductos().then((res)=> {
-    const data = res.producto;
+const cargarProductos = productServices.listaProductos().then((data)=> {
+    //const data = res.producto;
     const url = document.URL.split("/").pop().split("?").shift();
 
     switch (url) {
@@ -50,16 +50,21 @@ const cargarProductos = productServices.listaProductos().then((res)=> {
 
 const crearSeccionSimilares = (productosSimilares, idActual) => {
     const seccion = document.querySelector(`.productos__seccion`);
+    let i = 0 ;
+    let cantidad = 1;
 
-    for (let i = 0; i < 6; i++) {
-        if(productosSimilares[i].id != idActual){
+    while ( i < productosSimilares.length && cantidad != 7 ) {
+        if( productosSimilares[i].id != idActual ){          
             const divProducto = document.createElement('div');
             divProducto.classList.add('producto');
-            divProducto.classList.add(`producto${i+1}`);
+            divProducto.classList.add(`producto${cantidad}`);
             divProducto.innerHTML = crearProducto(productosSimilares[i].nombre, productosSimilares[i].precio, productosSimilares[i].id);              
             seccion.appendChild(divProducto);    
-        }        
+            cantidad++;
+        }
+        i++;
     }
+    
 };
 
 const crearExhibidorProducto = (producto) =>{

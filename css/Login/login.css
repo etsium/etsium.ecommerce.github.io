@@ -5,6 +5,9 @@ h2{
 .login{
     background: var(--secundario);
     color: var(--blanco);
+
+    transition-property: background, color;
+    transition: ease-in-out .5s;
 }
 
 .login__form{
@@ -14,7 +17,7 @@ h2{
     padding: 5rem 0;
 }
 
-.login .input{
-    padding-bottom: 3rem;
+.login{
+    padding-bottom: 2rem;
 }
 

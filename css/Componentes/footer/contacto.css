@@ -12,10 +12,9 @@ ul{
     background: var(--terciario);
     padding: 2rem;
     gap: 2rem;
-}
 
-.contacto .input{
-    padding-bottom: 1rem;
+    transition-property: background;
+    transition: ease-in-out .5s;
 }
 
 .contenedor__logo{

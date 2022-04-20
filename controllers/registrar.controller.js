@@ -4,7 +4,6 @@ const formulario = document.querySelector('[data-form]');
 
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
-    console.log("asda");
     const nombre = document.querySelector('[data-nombre]').value;
     const precio = document.querySelector('[data-precio]').value;
     const descripcion = document.querySelector('[data-descripcion]').value;

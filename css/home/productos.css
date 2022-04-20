@@ -1,5 +1,8 @@
 .productos{
     background: var(--primario);
+
+    transition-property: background;
+    transition: ease-in-out .5s;
 }
 
 .producto{
@@ -25,7 +28,10 @@
 
 .producto__nombre,.producto__precio, .productos__seccion__nombre{
     margin: .4rem 0rem;
-    color: var(--blanco);
+    color: var(--letra);
+
+    transition-property: color;
+    transition: ease-in-out .5s;
 }
 
 .producto__nombre{
@@ -80,6 +86,7 @@
 }
 .productos__seccion__nombre{
     grid-area: seccion;
+    justify-self: left;
 }
 .productos__seccion__enlace{
     grid-area: enlace;

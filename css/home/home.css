@@ -26,8 +26,11 @@ h1, h2{
 }
 
 .banner__titulo, .banner__texto{
-    color: var(--blanco);
+    color: var(--letrasecundaria);
     font-weight: bold;
+
+    transition-property: color;
+    transition: ease-in-out .5s;
 }
 
 .banner__button{

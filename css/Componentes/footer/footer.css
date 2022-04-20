@@ -1,7 +1,10 @@
 .footer{
     text-align: center;
-    color: var(--blanco);
+    color: var(--letra);
     background: var(--primario);
+    
+    transition-property: background, color;
+    transition: ease-in-out .5s;
 }
 
 .info{
@@ -9,5 +12,8 @@
 }
 
 .footer a{
-    color: var(--blanco);
+    color: var(--letra);
+
+    transition-property: color;
+    transition: ease-in-out .5s;
 }

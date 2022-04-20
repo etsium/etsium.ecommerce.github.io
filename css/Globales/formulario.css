@@ -1,3 +1,10 @@
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px var(--primario) inset !important;
+  -webkit-text-fill-color: var(--letra) !important;
+}
+
 a{
     text-decoration: none;
     font-weight: bold;
@@ -8,8 +15,15 @@ a{
 
 a:hover{
     color: var(--azulclarito);
+
+    transition-property: color;
+    transition: ease-in-out .5s;
 }
 
+.textarea{
+    max-width: 100%;
+    max-height: 3rem;
+}
 
 .formulario{
     display: flex;
@@ -20,64 +34,94 @@ a:hover{
 
 .form__titulo{
     padding-bottom: 3rem;
+    font-weight: bold;
+    color: var(--letra);
+
+    transition-property: color;
+    transition: ease-in-out .5s;
 }
 
 .input{
+    background: transparent;
+    border: none;
+    outline: none;
     display: flex;
+    width: 100%;
+    flex-direction: column;
     align-items: flex-start;
+    color: var(--letra);
+    padding: .2rem 0;
+}
+
+.input__label__signo{
+    padding: .2rem 0;
+    color: var(--letra);
+}
+
+.invalid{
+    color: var(--invalido)!important;
+    border-color: var(--invalido)!important;
+}
+
+.form__input, .form__textarea{
+    width: 25rem;
+    padding: .3em;
+    margin: .5rem 0rem;
+    background: var(--primario);
+    color: var(--letra);
+    border-radius: .3rem;
+    border-bottom: .1rem solid var(--gris);
+    transition: all ease-in-out 500ms ;
 }
 
 .form__input{
-    width: 25rem;
-    height: 3rem;
-    padding-top: .5rem;
-    border-right: none;
-    background: var(--primario);
-    color: var(--blanco);
-    border-radius: .3rem;
-
-    transition: all ease-in-out 500ms ;
+    min-height: 3rem;
+    text-align: start;
 }
 
-.form__mensaje{
-    width: 25rem;
-    height: 4rem;
-    padding-top: 1.3rem;
-    border-right: none;
-    background: var(--primario);
-    color: var(--blanco);
-    border-radius: .3rem;
-    border: none;
-    border-bottom: .15rem solid #767676;
-
-
-    transition: all ease-in-out 500ms ;
+.form__textarea{
+    min-height: 5rem;
 }
 
-.form__input:focus, .form__mensaje:focus{
+.form__input:focus-within {
     border-bottom: .15rem solid var(--azul);
     outline: none;
 }
 
-.input:focus-within .form__label{
+.form__input:focus-within .form__label{
     color: var(--azul);
 }
 
 .form__label{
-    position: absolute;
     color: var(--gris);
     font-size: .8rem;
-    padding: 0.3rem;
-
     transition: all ease-in-out 500ms ;
+}
+
+.form__input__info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+}
+
+.input__info__cont{
+    font-size: .8rem;
+}
+
+.form__input__precio{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
 }
 
 .form__button{
     padding: 0;
     border-radius: .3rem;
-    color: var(--blanco);
+    color: var(--letrasecundaria);
     width: 25rem;
     height: 3.3rem;
+    margin: 0.5rem 0;
     background: var(--azul);
     border: none;
     font-weight: bold;
@@ -89,3 +133,4 @@ a:hover{
 .form__button:hover{
     background: var(--azulclarito);
 }
+

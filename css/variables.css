@@ -1,9 +1,24 @@
-:root{
+.dark{
     --primario: #202124;
     --secundario: #303134;
     --terciario: #25272c;
     --azul: #2a7ae4;
     --azulclarito: #3a8af4;
-    --blanco: #dfdfdf;
+    --letra: #dfdfdf;
+    --letrasecundaria: #dfdfdf;
     --gris: #afafaf;
+    --invalido: lightcoral;
+    
+}
+
+.light{
+    --terciario: #dadada;
+    --primario: #dfdfdf;
+    --secundario: #d6d6d6;
+    --azul: #2a7ae4;
+    --azulclarito: #3a8af4;
+    --letra: #303134;
+    --letrasecundaria: #dfdfdf;
+    --gris: #afafaf;
+    --invalido: lightcoral;
 }
