@@ -12,7 +12,7 @@ const listaProductos = () => fetch("https://etsium.github.io/Ecommerse.github.io
 }*/
 
 
-const img = document.getElementById("producto__imagen");
+/*const img = document.getElementById("producto__imagen");
 const imagePreview = document.getElementById("preview");
 const svg = document.querySelector(".form__svg__image");
 const label = document.querySelector(".form__label__image");
@@ -53,9 +53,9 @@ function previewImage(imgD) {
             errorMessage.innerText = "File type should be an image"
         }
     }   
-}
+}*/
 
 export const productServices = {
-    crearProducto,
+    //crearProducto,
     listaProductos,
 }
