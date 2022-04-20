@@ -7,7 +7,7 @@
 
 .producto{
     transform: scale(1);
-    transition: all ease-in-out 1s;
+    transition: all ease-in-out 500ms;
 }
 
 .exhibidor__producto__imagen{
@@ -15,7 +15,7 @@
 }
 
 .producto__enlace:hover > .producto__imagen{
-    transition: all ease-in-out 1s;
+    transition: all ease-in-out 500ms;
     border-radius: .5rem; 
     box-shadow: 0rem 0rem 1rem .2rem var(--azulclarito);
 }
@@ -23,7 +23,7 @@
 .producto:hover{
     transform: scale(1.1);
     padding: 1rem;
-    transition: all ease-in-out 1s;
+    transition: all ease-in-out 500ms;
 }
 
 .producto__nombre,.producto__precio, .productos__seccion__nombre{
