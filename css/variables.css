@@ -1,3 +1,6 @@
+html{
+    background: var(--primario);
+}
 .dark{
     --primario: #202124;
     --secundario: #303134;
