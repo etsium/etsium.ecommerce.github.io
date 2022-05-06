@@ -7,8 +7,8 @@ const label = document.querySelector(".form__label__image");
 const div = document.querySelector(".form__drag__image");
 
 window.addEventListener("load", (data) => { 
-    productServices.listaProductos().then((data)=> {
-
+    productServices.listaProductos().then((res)=> {
+        data = res.producto;
         const url = new URL(window.location.href);
         const idProducto = url.searchParams.get("Producto");
         if(idProducto != null){

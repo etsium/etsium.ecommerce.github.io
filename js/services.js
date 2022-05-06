@@ -2,11 +2,12 @@ const listaProductos = () => fetch("https://etsium.github.io/etsium.ecommerce.gi
 //const listaProductos = () => fetch("http://localhost:3000/producto").then( (respuesta) => respuesta.json());
 
 const login = (email, password) => fetch('https://etsium.github.io/etsium.ecommerce.github.io/dbusers.json').then( (respuesta) => respuesta.json()).then(({users})=>{
+    console.log(users);
     return new Promise((resolve, reject) => {
         let i = 0;
         let login= false;
-        while( i < data.length && !login ){
-            if(data[i].email === email && data[i].password === password){           
+        while( i < users.length && !login ){
+            if(users[i].email === email && users[i].password === password){           
                 login = true;
                 sessionStorage.setItem('rol', users[i].rol);
             }else{
