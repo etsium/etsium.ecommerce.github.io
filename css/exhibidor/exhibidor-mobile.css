@@ -3,9 +3,11 @@
     .exhibidor__producto{
         flex-direction: column;
     }
-    
+
     .exhibidor__producto__imagen{
         max-width: 100%;
+        min-width: 20rem;
+        max-height: 20rem;
     }  
     
     .exhibidor__producto, .productos__seccion{

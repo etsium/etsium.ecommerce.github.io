@@ -1,15 +1,4 @@
-const inputs = document.querySelectorAll('input');
-const textareas = document.querySelectorAll('textarea');
-
-const validar = () => {   
-    const evento = 'input';
-
-    validarElemento(inputs, evento);
-    validarElemento(textareas, evento);     
-};
-
-
-const validarElemento = (elementos, evento) => {
+export const validarElemento = (elementos, evento) => {
     elementos.forEach( elemento => {
         elemento.addEventListener(evento, (elemento) => {
             valida(elemento.target);
@@ -24,17 +13,18 @@ const validarElemento = (elementos, evento) => {
 };
 
 
-function valida(elemento){
+export function valida(elemento){
     const tipoDeElemento= elemento.dataset.tipo;
-
     switch (tipoDeElemento) {
         case 'precio':
                 if(elemento.validity.valid){
                     elemento.parentElement.parentElement.classList.remove('invalid');
                     elemento.parentElement.parentElement.querySelector('span').innerHTML = '';
+                    return true;
                 }else{
                     elemento.parentElement.parentElement.classList.add('invalid');
                     elemento.parentElement.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeElemento, elemento);
+                    return false;
                 }
             break;
     
@@ -42,9 +32,11 @@ function valida(elemento){
                 if(elemento.validity.valid){
                     elemento.parentElement.classList.remove('invalid');
                     elemento.parentElement.querySelector('span').innerHTML = '';
+                    return true;
                 }else{
                     elemento.parentElement.classList.add('invalid');
                     elemento.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeElemento, elemento);
+                    return false;
                 }
             break;
     }
@@ -55,6 +47,7 @@ const tipoDeErrores = [
     'valueMissing',
     'typeMismatch',
     'patternMismatch',
+    'stepMismatch',
 ]
 
 const mensajesDeError = {
@@ -70,11 +63,12 @@ const mensajesDeError = {
     //Crear Producto Formulario
     nombreProducto: {
         valueMissing: "El nombre del producto no puede estar vacio.",
-        patternMismatch: "El nombre es demasiado largo, maximo 20 caracteres.",
+        patternMismatch: "El nombre es demasiado largo, maximo 30 caracteres.",
     },
 
     precio: {
         valueMissing: "El producto tiene que tener un precio.",
+        stepMismatch: 'Solo se puede agregar dos numeros despues de la coma',
     },
 
     descripcion: {
@@ -103,5 +97,3 @@ function mostrarMensajeDeError(tipoDeInput, input){
 
     return mensaje;
 }
-
-validar();

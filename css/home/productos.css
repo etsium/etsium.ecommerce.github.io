@@ -5,14 +5,31 @@
     transition: ease-in-out .5s;
 }
 
+.producto .producto__menu {
+    text-align: right;
+}
+
+.producto__menu{
+    width: 100%;
+    position: fixed;
+}
+
+.svg__icono__menu{
+    fill: var(--azul);
+}
+
+.svg__icono__menu:hover{
+    fill: var(--azulclarito);
+    transform: scale(1.2);
+    cursor: pointer;
+    padding: .1rem;
+}
+
 .producto{
     transform: scale(1);
     transition: all ease-in-out 500ms;
 }
 
-.exhibidor__producto__imagen{
-    border-radius: .3rem;
-}
 
 .producto__enlace:hover > .producto__imagen{
     transition: all ease-in-out 500ms;
@@ -22,7 +39,7 @@
 
 .producto:hover{
     transform: scale(1.1);
-    padding: 1rem;
+    margin: 1rem;
     transition: all ease-in-out 500ms;
 }
 

@@ -2,7 +2,7 @@
   and (max-device-width: 1000px){
     .productos__seccion{
         grid-template:
-        'seccion enlace'
+        'seccion boton'
         'producto1 producto2'
         'producto3 producto4'
         'producto5 producto6' 
@@ -14,6 +14,10 @@
         'producto17 producto18';
     }
 
+    .form__button__viewall{
+        grid-area: boton;
+     }
+     
     .producto5{
         display: block;
     }

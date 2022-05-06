@@ -36,7 +36,7 @@
             </label>            
         </div>
         <div class="header__contenedor__button">
-            <a href="login.html"><button class="header__button">Login</button></a>
+            <a href="login.html"><button id="header__button__login" class="header__button">Iniciar Sesión</button></a>
         </div>
         <div class="header__estilo">
             <svg class="svg-icon svg-icon-tema icon-light" viewBox="0 0 20 20">
@@ -48,7 +48,7 @@
         </div>
     </header>
     <main class="creador">
-        <form class="contenedor__formulario creador__formulario" data-form>
+        <form id="form__producto" class="contenedor__formulario creador__formulario" data-form>
             <legend class="creador__form__titulo">Agregar nuevo producto</legend>
             <div class="form__drag__image pointer">
                 <div class="drag__image__content">
@@ -63,17 +63,17 @@
             </div>
             <div class="form__input">
                 <label class="form__label" for="producto__nombre">Nombre del producto</label>
-                <input placeholder="Producto XYZ" class="input" type="text" id="producto__nombre" data-nombre data-tipo="nombreProducto" pattern="[a-zA-Z]{1,20}" required>
+                <input placeholder="Producto XYZ" class="input form__input_validate" type="text" id="producto__nombre" data-nombre data-tipo="nombreProducto" pattern="[a-zA-Z0-9\s]{1,30}" required>
                 <div class="form__input__info">
                     <span class="input-message-error"></span>
-                    <span class="input__info__cont"">0/20</span>
+                    <span class="input__info__cont"">0/30</span>
                 </div>
             </div>
             <div class="form__input">
                 <label class="form__label" for="producto__precio">Precio del producto</label>
                 <div class="form__input__precio">
                     <label class="input__label__signo">$ </label>
-                    <input placeholder="60,00" class="input" type="number" id="producto__precio" data-precio data-tipo="precio" required>
+                    <input placeholder="60,00" class="input form__input_validate" type="number" id="producto__precio" data-precio data-tipo="precio" required>
                 </div>
                 <div class="form__input__info">
                     <span class="input-message-error"></span>
@@ -81,13 +81,13 @@
             </div>
             <div class="form__input form__textarea">
                 <label class="form__label" for="input__mensaje">Descripcion del producto</label>
-                <textarea class="input creador__textarea" cols="30" rows="10" maxlength="150" data-descripcion data-tipo="descripcion" required></textarea>
+                <textarea id="producto__descripcion" class="input creador__textarea" cols="30" rows="10" maxlength="150" data-descripcion data-tipo="descripcion" required></textarea>
                 <div class="form__input__info">
                     <span class="input-message-error"></span>
                     <span class="input__info__cont"">0/150</span>
                 </div>
             </div>
-            <button class="form__button creador__button">Agregar producto</button>
+            <button class="form__button creador__button" id="product__add">Agregar producto</button>
         </form>
     </main>
     <footer class="footer">
@@ -105,11 +105,11 @@
                     <li><a href="#">Anúncie aqui</a></li>
                 </ul>
             </nav>            
-            <form class="contenedor__formulario" action="">
+            <form class="contenedor__formulario" id="formulario__contacto">
                 <legend class="form__titulo">Hable con nosotros</legend>
                 <div class="form__input">
                     <label class="form__label" for="input__nombre">Nombre</label>
-                    <input class="input" type="text" id="input__nombre" data-tipo="nombreContacto" pattern="[a-zA-Z]{1,40}" required>
+                    <input class="input form__input_validate" type="text" id="input__nombre" data-tipo="nombreContacto" pattern="[a-zA-Z]{1,40}" required>
                     <div class="form__input__info">
                         <span class="input-message-error"></span>
                         <span class="input__info__cont"">0/40</span>
@@ -123,15 +123,17 @@
                         <span class="input__info__cont"">0/120</span>
                     </div>
                 </div>
-                <button class="form__button">Enviar Mensaje</button>
+                <button class="form__button" id="button__contact">Enviar Mensaje</button>
             </form>
         </section>
         <section class="info">
             <h4>Desarrollado por Juan Pablo Mota 2022</h4>
         </section>
     </footer>
-    <script type="module" src="controllers/registrar.controller.js"></script>
     <script src="js/tema.js"></script>
-    <script src="js/validaciones.js"></script>
+    <script type="module" src="controllers/buscador.Controller.js"></script>
+    <script type="module" src="controllers/validarFormularioContacto.js"></script>
+    <script type="module" src="controllers/registrar.controller.js"></script>
+    <script type="module" src="controllers/cargarDatosEdicion.controller.js"></script>    
 </body>
 </html>

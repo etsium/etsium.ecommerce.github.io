@@ -35,7 +35,7 @@
             </label>            
         </div>
         <div class="header__contenedor__button">
-            <a href="login.html"><button class="header__button">Login</button></a>
+            <button id="header__button__login" class="header__button">Iniciar Sesión</button>
         </div>
         <div class="header__estilo">
             <svg class="svg-icon svg-icon-tema icon-light" viewBox="0 0 20 20">
@@ -51,7 +51,7 @@
             <div class="banner__contenedor">
                 <h1 class="banner__titulo">Febrero Promocional</h1>
                 <h3 class="banner__texto">Productos selecionados con 33% de descuento</h3>
-                <button class="form__button banner__button">Ver consola</button>
+                <button id="form__button__verseccion" class="form__button banner__button">Ver consola</button>
             </div>            
         </section>   
         <section class="productos">
@@ -84,11 +84,11 @@
                     <li><a href="#">Anúncie aqui</a></li>
                 </ul>
             </nav>            
-            <form class="contenedor__formulario" action="">
+            <form class="contenedor__formulario" id="formulario__contacto">
                 <legend class="form__titulo">Hable con nosotros</legend>
                 <div class="form__input">
                     <label class="form__label" for="input__nombre">Nombre</label>
-                    <input class="input" type="text" id="input__nombre" data-tipo="nombreContacto" pattern="[a-zA-Z]{1,40}" required>
+                    <input class="input form__input_validate" type="text" id="input__nombre" data-tipo="nombreContacto" pattern="[a-zA-Z]{1,40}" required>
                     <div class="form__input__info">
                         <span class="input-message-error"></span>
                         <span class="input__info__cont"">0/40</span>
@@ -102,7 +102,7 @@
                         <span class="input__info__cont"">0/120</span>
                     </div>
                 </div>
-                <button class="form__button">Enviar Mensaje</button>
+                <button class="form__button" id="button__contact">Enviar Mensaje</button>
             </form>
         </section>
         <section class="info">
@@ -110,7 +110,12 @@
         </section>
     </footer>
     <script src="js/tema.js"></script>
+    <script src="controllers/verSeccion.js"></script>
+    <script type="module" src="controllers/buscador.Controller.js"></script>
+    <script type="module" src="controllers/validarFormularioContacto.js"></script>
     <script type="module" src="controllers/obtenerProductos.controller.js"></script>
-    <script src="js/validaciones.js"></script>
+    <script type="module" src="controllers/editarProducto.controller.js"></script>
+    <script type="module" src="controllers/eliminarProducto.controller.js"></script>
+
 </body>
 </html>

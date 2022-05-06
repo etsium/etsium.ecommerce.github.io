@@ -1,11 +1,17 @@
 .productos__seccion{
     display: grid;
     grid-template:
-    'seccion seccion seccion enlace enlace enlace'
+    'seccion seccion seccion boton boton boton'
     'producto1 producto2 producto3 producto4 producto5 producto6';
     justify-content: center;
     justify-items: center;
     gap: 1rem;
+}
+
+.form__button__viewall{
+    grid-area: boton;
+    width: 10rem;
+    justify-self: right;
 }
 
 .producto1{

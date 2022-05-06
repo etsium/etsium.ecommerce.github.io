@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/Componentes/footer/contacto-mobile.css">
     <link rel="stylesheet" href="css/Globales/formulario.css">
     <link rel="stylesheet" href="css/Globales/formulario-mobile.css">
+    <link rel="stylesheet" href="css/home/productos.css">
+    <link rel="stylesheet" href="css/home/productos-tablet.css">
+    <link rel="stylesheet" href="css/home/productos-mobile.css">
     <link rel="stylesheet" href="css/Login/login.css">
     <link rel="stylesheet" href="css/variables.css">
     <title>Login</title>
@@ -32,7 +35,7 @@
             </label>            
         </div>
         <div class="header__contenedor__button">
-            <a href="login.html"><button class="header__button">Login</button></a>
+            <a href="login.html"><button id="header__button__login" class="header__button">Iniciar Sesión</button></a>
         </div>
         <div class="header__estilo">
             <svg class="svg-icon svg-icon-tema icon-light" viewBox="0 0 20 20">
@@ -49,19 +52,19 @@
                 <h2 class="form__titulo">Iniciar Sesión</h2>
                 <div class="form__input">
                     <label class="form__label" for="input__email">Email</label>
-                    <input class="input" type="email" id="input__email" data-tipo="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    <input class="input form__input_validate" type="email" id="input__email" data-tipo="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     <div class="form__input__info">
                         <span class="input-message-error"></span>
                     </div>
                 </div>            
                 <div class="form__input">
                     <label class="form__label" for="input__password">Contraseña</label>
-                    <input class="input" type="password" id="input__password" data-tipo="password" required>
+                    <input class="input form__input_validate" type="password" id="input__password" data-tipo="password" required>
                     <div class="form__input__info">
                         <span class="input-message-error"></span>
                     </div>
                 </div>
-                <button class="form__button" type="submit">Ingresar</button>
+                <button class="form__button" id="button__login" type="submit">Ingresar</button>
             </form>
         </section>
     </main>
@@ -80,11 +83,11 @@
                     <li><a href="#">Anúncie aqui</a></li>
                 </ul>
             </nav>            
-            <form class="contenedor__formulario" action="">
+            <form class="contenedor__formulario" id="formulario__contacto">
                 <legend class="form__titulo">Hable con nosotros</legend>
                 <div class="form__input">
                     <label class="form__label" for="input__nombre">Nombre</label>
-                    <input class="input" type="text" id="input__nombre" data-tipo="nombreContacto" pattern="[a-zA-Z]{1,40}" required>
+                    <input class="input form__input_validate" type="text" id="input__nombre" data-tipo="nombreContacto" pattern="[a-zA-Z]{1,40}" required>
                     <div class="form__input__info">
                         <span class="input-message-error"></span>
                         <span class="input__info__cont"">0/40</span>
@@ -98,14 +101,16 @@
                         <span class="input__info__cont"">0/120</span>
                     </div>
                 </div>
-                <button class="form__button">Enviar Mensaje</button>
+                <button class="form__button" id="button__contact">Enviar Mensaje</button>
             </form>
         </section>
         <section class="info">
             <h4>Desarrollado por Juan Pablo Mota 2022</h4>
         </section>
     </footer>
+    <script type="module" src="controllers/buscador.Controller.js"></script>
+    <script type="module" src="controllers/validarFormularioContacto.js"></script>
+    <script type="module" src="controllers/login.js"></script>
     <script src="js/tema.js"></script>
-    <script src="js/validaciones.js"></script>
 </body>
 </html>
